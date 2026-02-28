@@ -6,23 +6,23 @@ Homebrew tap for [ClosedSSPM](https://github.com/PiotrMackowski/ClosedSSPM) — 
 
 ```bash
 brew tap PiotrMackowski/closedsspm
-brew install closedsspm
+brew install --cask closedsspm
 ```
 
 ## Update
 
 ```bash
 brew update
-brew upgrade closedsspm
+brew upgrade --cask closedsspm
 ```
 
 ## Uninstall
 
 ```bash
-brew uninstall closedsspm
+brew uninstall --cask closedsspm
 brew untap PiotrMackowski/closedsspm
 ```
 
 ## About
 
-This tap is automatically maintained by [GoReleaser](https://goreleaser.com/). Formulas are updated on each [ClosedSSPM release](https://github.com/PiotrMackowski/ClosedSSPM/releases).
+This tap is automatically maintained by [GoReleaser](https://goreleaser.com/). Casks are updated on each [ClosedSSPM release](https://github.com/PiotrMackowski/ClosedSSPM/releases).
