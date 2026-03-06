@@ -15,22 +15,22 @@ cask "closedsspm" do
   on_macos do
     on_intel do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_darwin_amd64.tar.gz"
-      sha256 "1bbc159f2d157560eb92e5015fec531ae3f56c3a6a5a6243f994b1442ba461f5"
+      sha256 "002cb3850fa8f687b9c6fa721bd63eea7178606e46796a40c0b7a390bf2b87f0"
     end
     on_arm do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_darwin_arm64.tar.gz"
-      sha256 "da8d2513c1ff2280d3bc15145030048c0889411033c39533d2fe19c1983aafbe"
+      sha256 "5f57e595d3bd1990a33c6a26fe3a21a11f30888d139d08be89c40e27af1d1d8e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_linux_amd64.tar.gz"
-      sha256 "f6371506ff4d1a551942ef8419de50da7af3dea31fe25e0d491e90a9bea67f85"
+      sha256 "e6aa2f1172ca979003fac951c386d807e8d42184848a706bdfb42cfa77943bfc"
     end
     on_arm do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_linux_arm64.tar.gz"
-      sha256 "cca9c627d7581293be19c405b1ec1fb33fdb9b826c215c8f09fda9ac2a3f1495"
+      sha256 "f01e4f55310e8d39390b42e695fcaa5c644e1ff01fd8f2b3a014bf0493888fdd"
     end
   end
 
