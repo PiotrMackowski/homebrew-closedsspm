@@ -3,7 +3,7 @@ cask "closedsspm" do
   name "closedsspm"
   desc "Open Source SaaS Security Posture Management — audit SaaS platforms for security misconfigurations."
   homepage "https://github.com/PiotrMackowski/ClosedSSPM"
-  version "0.4.0"
+  version "0.4.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,22 +15,22 @@ cask "closedsspm" do
   on_macos do
     on_intel do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_darwin_amd64.tar.gz"
-      sha256 "1cecfe95f584bc5fbdcc993105ddcd6556b8470a6a1b229f9338f305b5087798"
+      sha256 "32bf733b5a88f54ab90e2f174b198701d84e1a769edce1e0bcef330f8ea6385a"
     end
     on_arm do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_darwin_arm64.tar.gz"
-      sha256 "3759dd09f1034ed9c271e48b956a92223996390359229efb95d19ac1b371bd81"
+      sha256 "6157c2342f8424b7f56c2c2a2f461e6f351a245d9383c2002edf9a77b7496e6b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_linux_amd64.tar.gz"
-      sha256 "c757eaaea66c9674067e44a6ea01b5fe1e01e1edf4fbdd19c2ad998d673768a2"
+      sha256 "4426fd9e218c6665e52dbd9e0ee8a05480260964e77aedd307f9bb3358a6c8bd"
     end
     on_arm do
       url "https://github.com/PiotrMackowski/ClosedSSPM/releases/download/v#{version}/closedsspm_#{version}_linux_arm64.tar.gz"
-      sha256 "b691285f375fee0a78cfff8e41fabeff505f57694d4b19312b405069ef752514"
+      sha256 "110c2314012e2a5f2e6c632d0b64b729b820cbadf0615cba197cb6dbea09165e"
     end
   end
 
